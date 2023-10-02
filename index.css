@@ -1,8 +1,24 @@
 body {
     background: linear-gradient(#0e8dbe, #031c2c);
     color: white;
+    background-repeat: repeat-x;
+    height: 100dvh;
 }
 
 #main-hero-logo {
     background-color: white;
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: #ffffff;
+    --bs-btn-hover-bg: #8eaac3;
+    --bs-btn-border-color: #0d161e;
+}
+
+.border-bottom {
+    border-bottom: 2px dashed white !important;
+}
+
+.Navbar {
+    background-color: #005677;
 }
